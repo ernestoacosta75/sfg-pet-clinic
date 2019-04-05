@@ -5,7 +5,7 @@ package sfgpetclinic.model;
  *
  * @author Rodriguez Acosta Ernesto Antonio
  */
-public class Person {
+public class Person extends BaseEntity {
 
     private String firstName;
     private String lastName;
