@@ -1,6 +1,7 @@
 package sfgpetclinic.model;
 
 import java.time.LocalDate;
+import java.util.StringJoiner;
 
 /**
  * This POJO represents the Pet entity.
@@ -35,5 +36,24 @@ public class Pet extends BaseEntity {
 
     public void setBirthDate(LocalDate birthDate) {
         this.birthDate = birthDate;
+    }
+
+    @Override
+    public int hashCode() {
+        return super.hashCode();
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        return super.equals(obj);
+    }
+
+    @Override
+    public String toString() {
+        return new StringJoiner("|", Pet.class.getSimpleName() + "[", "]")
+                .add("id=" + this.getId())
+                .add("petType=" + this.getPetType())
+                .add("owner=" + this.getOwner())
+                .toString();
     }
 }
