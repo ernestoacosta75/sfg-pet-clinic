@@ -2,8 +2,6 @@ package sfgpetclinic.services;
 
 import sfgpetclinic.model.Vet;
 
-import java.util.Set;
-
 /**
  * This interface represents the Vet entities management
  * in the service layer.
@@ -12,9 +10,6 @@ import java.util.Set;
  *
  * @author  Ernesto A. Rodriguez Acosta
  */
-public interface VetService {
+public interface VetService extends CrudService<Vet, Long>{
 
-    Vet findById(Long id);
-    Vet save(Vet vet);
-    Set<Vet> findAll();
 }
