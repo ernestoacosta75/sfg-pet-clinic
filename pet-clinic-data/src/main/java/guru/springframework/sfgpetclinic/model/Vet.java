@@ -1,13 +1,13 @@
-package sfgpetclinic.model;
+package guru.springframework.sfgpetclinic.model;
 
 import java.util.StringJoiner;
 
 /**
- * This POJO represents the Owner entity.
+ * This POJO represents the Veterinary entity.
  *
  * @author Rodriguez Acosta Ernesto Antonio
  */
-public class Owner extends Person {
+public class Vet extends Person {
 
     @Override
     public int hashCode() {
@@ -21,10 +21,11 @@ public class Owner extends Person {
 
     @Override
     public String toString() {
-        return new StringJoiner("|", Owner.class.getSimpleName() + "[", "]")
+        return new StringJoiner("|", Vet.class.getSimpleName() + "[", "]")
                 .add("id=" + this.getId())
                 .add("firstName=" + this.getFirstName())
                 .add("lastName=" + this.getLastName())
                 .toString();
     }
 }
+

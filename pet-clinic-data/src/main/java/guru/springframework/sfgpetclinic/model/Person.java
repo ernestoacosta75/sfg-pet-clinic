@@ -1,4 +1,4 @@
-package sfgpetclinic.model;
+package guru.springframework.sfgpetclinic.model;
 
 /**
  * This POJO represents the Person entity.

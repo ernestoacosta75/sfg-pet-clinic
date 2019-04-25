@@ -1,8 +1,8 @@
-package sfgpetclinic.services.map.impl;
+package guru.springframework.sfgpetclinic.services.map.impl;
 
-import sfgpetclinic.model.Pet;
-import sfgpetclinic.services.PetService;
-import sfgpetclinic.services.map.AbstractMapService;
+import guru.springframework.sfgpetclinic.model.Pet;
+import guru.springframework.sfgpetclinic.services.PetService;
+import guru.springframework.sfgpetclinic.services.map.AbstractMapService;
 
 import java.util.Set;
 

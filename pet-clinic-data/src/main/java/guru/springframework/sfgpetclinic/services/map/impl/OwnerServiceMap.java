@@ -1,8 +1,11 @@
-package sfgpetclinic.services.map.impl;
+package guru.springframework.sfgpetclinic.services.map.impl;
 
-import sfgpetclinic.model.Owner;
-import sfgpetclinic.services.OwnerService;
-import sfgpetclinic.services.map.AbstractMapService;
+import guru.springframework.sfgpetclinic.model.Owner;
+import guru.springframework.sfgpetclinic.services.OwnerService;
+import guru.springframework.sfgpetclinic.services.map.AbstractMapService;
+import org.springframework.context.annotation.Profile;
+import org.springframework.stereotype.Service;
+
 
 import java.util.Set;
 
@@ -12,6 +15,8 @@ import java.util.Set;
  *
  * @author  Ernesto A. Rodriguez Acosta
  */
+@Service
+//@Profile({"default", "map"})
 public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService {
 
     @Override

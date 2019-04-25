@@ -1,6 +1,6 @@
-package sfgpetclinic.services;
+package guru.springframework.sfgpetclinic.services;
 
-import sfgpetclinic.model.Owner;
+import guru.springframework.sfgpetclinic.model.Owner;
 
 /**
  * This interface represents the Owner entities management

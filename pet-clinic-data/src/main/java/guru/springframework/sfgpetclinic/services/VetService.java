@@ -1,6 +1,6 @@
-package sfgpetclinic.services;
+package guru.springframework.sfgpetclinic.services;
 
-import sfgpetclinic.model.Vet;
+import guru.springframework.sfgpetclinic.model.Vet;
 
 /**
  * This interface represents the Vet entities management

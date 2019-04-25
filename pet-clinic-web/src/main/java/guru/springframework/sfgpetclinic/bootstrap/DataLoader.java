@@ -1,13 +1,14 @@
 package guru.springframework.sfgpetclinic.bootstrap;
 
+import guru.springframework.sfgpetclinic.model.Owner;
+import guru.springframework.sfgpetclinic.model.Vet;
+import guru.springframework.sfgpetclinic.services.OwnerService;
+import guru.springframework.sfgpetclinic.services.VetService;
+import guru.springframework.sfgpetclinic.services.map.impl.OwnerServiceMap;
+import guru.springframework.sfgpetclinic.services.map.impl.VetServiceMap;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
-import sfgpetclinic.model.Owner;
-import sfgpetclinic.model.Vet;
-import sfgpetclinic.services.OwnerService;
-import sfgpetclinic.services.VetService;
-import sfgpetclinic.services.map.impl.OwnerServiceMap;
-import sfgpetclinic.services.map.impl.VetServiceMap;
+
 
 /**
  * This class has the responsability of initialize data.
