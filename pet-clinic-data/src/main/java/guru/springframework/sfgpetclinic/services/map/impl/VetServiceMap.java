@@ -3,6 +3,7 @@ package guru.springframework.sfgpetclinic.services.map.impl;
 import guru.springframework.sfgpetclinic.model.Vet;
 import guru.springframework.sfgpetclinic.services.VetService;
 import guru.springframework.sfgpetclinic.services.map.AbstractMapService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
@@ -12,6 +13,7 @@ import java.util.Set;
  *
  * @author  Ernesto A. Rodriguez Acosta
  */
+@Service
 public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
 
     @Override
