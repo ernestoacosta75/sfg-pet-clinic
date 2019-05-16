@@ -5,8 +5,8 @@ guru/springframework/sfgpetclinic/model/PetType.class
 guru/springframework/sfgpetclinic/services/PetService.class
 guru/springframework/sfgpetclinic/services/map/impl/VetServiceMap.class
 guru/springframework/sfgpetclinic/model/Owner.class
-guru/springframework/sfgpetclinic/model/Vet.class
 guru/springframework/sfgpetclinic/model/BaseEntity.class
+guru/springframework/sfgpetclinic/model/Vet.class
 guru/springframework/sfgpetclinic/services/map/impl/OwnerServiceMap.class
 guru/springframework/sfgpetclinic/model/Person.class
 guru/springframework/sfgpetclinic/services/OwnerService.class
