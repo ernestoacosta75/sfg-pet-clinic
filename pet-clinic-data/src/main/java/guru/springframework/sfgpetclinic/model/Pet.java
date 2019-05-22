@@ -4,7 +4,7 @@ import java.time.LocalDate;
 import java.util.StringJoiner;
 
 /**
- * This POJO represents the Pet entity.
+ * Simple Java Bean domain object representing a pet.
  *
  * @author Rodriguez Acosta Ernesto Antonio
  */

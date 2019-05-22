@@ -3,7 +3,7 @@ package guru.springframework.sfgpetclinic.model;
 import java.util.StringJoiner;
 
 /**
- * This POJO represents the Veterinary entity.
+ * Simple Java Bean domain object representing a vet.
  *
  * @author Rodriguez Acosta Ernesto Antonio
  */

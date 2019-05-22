@@ -1,13 +1,24 @@
 package guru.springframework.sfgpetclinic.model;
 
+import java.util.Set;
 import java.util.StringJoiner;
 
 /**
- * This POJO represents the Owner entity.
+ * Simple Java Bean domain object representing an owner.
  *
  * @author Rodriguez Acosta Ernesto Antonio
  */
 public class Owner extends Person {
+
+    private Set<Pet> pets;
+
+    public Set<Pet> getPets() {
+        return pets;
+    }
+
+    public void setPets(Set<Pet> pets) {
+        this.pets = pets;
+    }
 
     @Override
     public int hashCode() {

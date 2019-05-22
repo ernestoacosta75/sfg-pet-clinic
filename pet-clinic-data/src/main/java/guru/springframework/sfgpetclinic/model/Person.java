@@ -1,7 +1,7 @@
 package guru.springframework.sfgpetclinic.model;
 
 /**
- * This POJO represents the Person entity.
+ * Simple Java Bean domain object representing a person.
  *
  * @author Rodriguez Acosta Ernesto Antonio
  */
