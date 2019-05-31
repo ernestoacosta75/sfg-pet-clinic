@@ -27,4 +27,13 @@ public class OwnerController {
 
         return "owners/index";
     }
+
+    /**
+     * Returns an owners list.
+     * @return Owners list.
+     */
+    @RequestMapping({"/find"})
+    public String findOwners() {
+        return "notimplemented";
+    }
 }
