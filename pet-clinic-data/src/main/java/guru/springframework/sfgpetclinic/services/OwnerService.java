@@ -12,5 +12,10 @@ import guru.springframework.sfgpetclinic.model.Owner;
  */
 public interface OwnerService extends CrudService<Owner, Long> {
 
+    /**
+     * Returns the Owner entity with that last name.
+     * @param lastName
+     * @return Owner entity.
+     */
     Owner findByLastName(String lastName);
 }
