@@ -32,7 +32,7 @@ public class OwnerSDJpaService implements OwnerService {
     }
 
     /**
-     * Returns an Owner entity with that last name.
+     * Returns an <code>Owner</code> entity with that last name.
      * @param lastName
      * @return Owner entity.
      */
@@ -42,7 +42,7 @@ public class OwnerSDJpaService implements OwnerService {
     }
 
     /**
-     * Returns a Set of all Owners entities.
+     * Returns a Set of all <code>Owner</code> entities.
      * @return Set of all Owners entities.
      */
     @Override
@@ -54,7 +54,7 @@ public class OwnerSDJpaService implements OwnerService {
     }
 
     /**
-     * Returns an Owner entity with that ID.
+     * Returns an <code>Owner</code> entity with that ID.
      * @param aLong
      * @return An Owner entity.
      */
@@ -64,7 +64,7 @@ public class OwnerSDJpaService implements OwnerService {
     }
 
     /**
-     * Save that Owner entity.
+     * Save that <code>Owner</code> entity.
      * @param owner
      * @return Owner entity saved.
      */
@@ -74,7 +74,7 @@ public class OwnerSDJpaService implements OwnerService {
     }
 
     /**
-     * Delete that Owner entity.
+     * Delete that <code>Owner</code> entity.
      * @param owner
      */
     @Override
@@ -83,7 +83,7 @@ public class OwnerSDJpaService implements OwnerService {
     }
 
     /**
-     * Delete an Owner entity with that ID.
+     * Delete an <code>Owner</code> entity with that ID.
      * @param aLong
      */
     @Override
