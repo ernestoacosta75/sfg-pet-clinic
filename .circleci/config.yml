@@ -51,3 +51,5 @@ jobs:
           when: always
       - store_test_results:
           path: ~/test-results
+      - store_artifacs:
+          path: ~/test-results/junit
