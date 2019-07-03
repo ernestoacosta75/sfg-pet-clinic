@@ -33,6 +33,7 @@
 		<junit-jupiter-engine.version>5.4.0</junit-jupiter-engine.version>
 		<maven-surefire-plugin.version>2.22.1</maven-surefire-plugin.version>
 		<spring-boot-starter-test.version>2.2.0.M1</spring-boot-starter-test.version>
+		<mockito-junit-jupiter.version>2.22.0</mockito-junit-jupiter.version>
 	</properties>
 
     <scm>
@@ -64,6 +65,12 @@
 				<groupId>org.junit.jupiter</groupId>
 				<artifactId>junit-jupiter-engine</artifactId>
 				<version>${junit-jupiter-engine.version}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>org.mockito</groupId>
+				<artifactId>mockito-junit-jupiter</artifactId>
+				<version>${mockito-junit-jupiter.version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
