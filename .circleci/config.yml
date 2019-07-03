@@ -55,6 +55,6 @@ jobs:
       #    path: ~/test-results/junit
       - store_test_results:
           path: target/surefire-reports
-      - store_test_artifacts:
+      - store_artifacts:
           path: target/surefire-reports
           destination: tr1
